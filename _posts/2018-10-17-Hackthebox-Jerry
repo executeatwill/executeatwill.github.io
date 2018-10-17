@@ -6,9 +6,47 @@ published: false
 
 ## Hackthebox - Jerry - Writeup
 
-Enumerate
-tools: Nmap / Nikto
+* Enumerate
+tools:
 
+Nmap
+```
+nmap -sC -sV -oA htbjerry 10.10.10.95
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-10-17 07:13 EDT
+Nmap scan report for 10.10.10.95
+Host is up (0.19s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+8080/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+|_http-favicon: Apache Tomcat
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Apache Tomcat/7.0.88
+```
+* Discovered Apache Tomcat/7.0.88 on port 8080
+
+Nikto
+```
+- Nikto v2.1.6/2.1.5
++ Target Host: 10.10.10.95
++ Target Port: 8080
++ GET The anti-clickjacking X-Frame-Options header is not present.
++ GET The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ GET The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ GET Server leaks inodes via ETags, header found with file /favicon.ico, fields: 0xW/21630 0x1525691762000 
++ GET /examples/servlets/index.html: Apache Tomcat default JSP pages present.
++ OSVDB-3720: GET /examples/jsp/snp/snoop.jsp: Displays information about page retrievals, including other users.
+```
+
+* Discovered Apache Tomcat and JSP vulnerability 
+
+## Navigate to 10.10.10.95:8080
+
+
+
+
+
+ 
+flag location: C:\Users\Administrator\Desktop\flags
 
 
 ## Screenshots
