@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # DAB - HTB
 Legal Usage:
@@ -801,5 +801,3 @@ move printf libseclogin.so to /tmp re-run ldconfig and open myexec straight to a
 
 
 TADA!
-
-
