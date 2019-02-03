@@ -4,7 +4,14 @@ published: true
 ![htb_jerry.png]({{site.baseurl}}/_posts/htb_jerry.png)
 
 
-### Htb - Writeup
+### Jerry - HTB - Writeup
+Legal Usage:
+*The information provided by execute@will is to be used for educational purposes only. The website creator and/or editor is in no way responsible for any misuse of the information provided. All the information on this website is meant to help the reader develop penetration testing and vulnerability aptitude to prevent attacks discussed. In no way should you use the information to cause any kind of damage directly or indirectly. Information provided by this website is to be regarded from an “*[*ethical hacker*](https://www.dictionary.com/browse/ethical-hacker)*” standpoint. Only preform testing on systems you OWN and/or have expressed written permission. Use information at your own risk.*
+
+*By continued reading, you acknowledge the aforementioned user risks/responsibilities.*
+
+----------
+
 
 ## 1. Enumeration
 
