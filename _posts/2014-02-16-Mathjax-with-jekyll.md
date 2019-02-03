@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "MathJax with Jekyll"
-date: 2014-02-16
+title: MathJax with Jekyll
+date: {}
 categories: opinion
-tags: [resources, jekyll]
-image: http://gastonsanchez.com/images/blog/mathjax_logo.png
+tags:
+  - resources
+  - jekyll
+image: 'http://gastonsanchez.com/images/blog/mathjax_logo.png'
+published: false
 ---
 
 One of the rewards of switching my website to [Jekyll](http://jekyllrb.com/) is the
