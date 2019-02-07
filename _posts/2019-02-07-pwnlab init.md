@@ -1,7 +1,6 @@
 ---
 published: true
 ---
-# pwnlab_init - Vulnhub
 Vulnhub virtual machine; On the path to OSCP this box offered PHP LFI, navigation of MySQL servers to extract data to privilege escalations through modifying PATH.
 
 
