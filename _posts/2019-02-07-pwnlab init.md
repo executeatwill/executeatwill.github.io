@@ -25,7 +25,7 @@ Navigating a MySQL Server - to extract data
 
 source files: https://www.vulnhub.com/entry/pwnlab-init,158/
 
-**ENUMERATION**
+# ENUMERATION
 
 Begin by performing a netdiscover to find pwnlab_init vm on network
 
@@ -238,7 +238,7 @@ decode the base64
 
 *Line #4 is important in that it states that “if(isset($_COOKIE[‘lang’]);” we will need to change our cookie.*
 
-**LFI**
+# LFI
 by changing the cookie to lang=[our command] we now have file/directory traversal.
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549557012005_image.png)
@@ -363,7 +363,7 @@ switch users to mike
 Move to exploit PATH and abuse user with “.” 
 more information found: https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation
 
-**PRIVESC**
+# PRIVESC
 echo path
 
     echo $PATH
@@ -435,7 +435,7 @@ check strings
 
 *“/bin/echo %s >> /root/messages.txt” very interesting*
 
-**ROOT**
+# ROOT
 move to open msg2root with an extra bash -p to preserve root attributes
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549566347538_image.png)
