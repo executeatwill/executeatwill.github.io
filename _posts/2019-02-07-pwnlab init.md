@@ -29,6 +29,7 @@ source files: https://www.vulnhub.com/entry/pwnlab-init,158/
 Begin by performing a netdiscover to find pwnlab_init vm on network
 
     netdiscover -r 192.168.56.1/24
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549493540025_image.png)
 
 
