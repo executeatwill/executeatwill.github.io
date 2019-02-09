@@ -41,12 +41,14 @@ local ip: 192.168.56.102
 ping possible target: 192.168.56.101
 
     ping -c 3 192.168.56.101
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549493700894_image.png)
 
 
 NMAP
 
     nmap -sV -sC -oA nmap/pwnlab.nmap 192.168.56.101
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_B2C149E1D9F8DB901CD74EB01CB7DA578B9214EFC6F7862C2D42B14EB54B6452_1549493994079_image.png)
 
 
