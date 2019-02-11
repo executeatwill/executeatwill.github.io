@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Install/Use Hashcat on Windows 10
 
