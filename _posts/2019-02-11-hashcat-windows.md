@@ -5,8 +5,16 @@ published: false
 
 This is a guide to installing hashcat on a windows 10 build. Hashcat allows for the use of GPUs to crack hashes which is significantly faster then within a VM and/or using a CPU alone.
 
-Keep in mind by using your GPU the faster the clock speed the faster it will crack hashes. Understand with increased speed comes increased heat. Our goal should be to ensure we control the heat being generated from large password lists to which I recommend MSI Afterburner.
+----------
 
+Legal Usage:
+*The information provided by executeatwill and this website is to be used for educational purposes only. The website creator and/or editor is in no way responsible for any misuse of the information provided. All the information on this website is meant to help the reader develop penetration testing and vulnerability aptitude to prevent attacks discussed. In no way should you use the information to cause any kind of damage directly or indirectly. Information provided by this website is to be regarded from an “*[*ethical hacker*](https://www.dictionary.com/browse/ethical-hacker)*” standpoint. Only preform testing on systems you OWN and/or have expressed written permission. Use information at your own risk.*
+
+*By continued reading, you acknowledge the aforementioned user risk/responsibilities.*
+
+----------
+
+Keep in mind by using your GPU the faster the clock speed the faster it will crack hashes. Understand with increased speed comes increased heat. Our goal should be to ensure we control the heat being generated from large password lists to which I recommend MSI Afterburner.
 
 (recommended) - MSI Afterburner can be used to monitor temps/fans/overclock GPUs and is found at:
 
@@ -646,5 +654,3 @@ to run Click “I”m a HashKiller”
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549917112323_image.png)
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549917133862_image.png)
-
-
