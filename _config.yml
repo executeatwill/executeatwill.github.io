@@ -348,7 +348,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: /assets/images/eaw500x281.png
+  image: https://github.com/executeatwill/ctf/blob/gh-pages/assets/images/eaw500x281.png
 
 
 # Code Highlight theme
