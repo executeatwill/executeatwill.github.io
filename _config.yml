@@ -348,7 +348,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: https://d2mxuefqeaa7sj.cloudfront.net/s_6AB34764338E0F071253C2A8E401C26EC233CA9E3D0D10D1B140682A90E22DC2_1550252262307_eaw500x281.png
+  image: https://d2mxuefqeaa7sj.cloudfront.net/s_6AB34764338E0F071253C2A8E401C26EC233CA9E3D0D10D1B140682A90E22DC2_1550252602201_eaw800x450.png
 
 
 # Code Highlight theme
