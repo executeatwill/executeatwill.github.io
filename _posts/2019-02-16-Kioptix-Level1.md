@@ -117,7 +117,7 @@ correction: above exploit requires updating and can be correctly found at this r
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_CE01D670F53ABAFF66E89458B46E1D05E4D324802D4F23554DB6E2BAEB0EC034_1550367827580_image.png)
 
 
-download teh ptrace-kmod.c && start python SimpleHTTPServer in directory of file.
+download the ptrace-kmod.c && start python SimpleHTTPServer in directory of file.
 
 edit the external link at line 671
 
