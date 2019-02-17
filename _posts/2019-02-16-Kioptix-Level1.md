@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Vulnhub virtual machine; On the path to OSCP this box offered Apache/OpenSSL vulnerability which led to a custom version of the exploit and an environmental problem and solution. 
 
@@ -165,7 +165,4 @@ Reverted back to website which I know it wont be able to be reached. At that poi
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_CE01D670F53ABAFF66E89458B46E1D05E4D324802D4F23554DB6E2BAEB0EC034_1550370436781_image.png)
 
 
-bring me the root! 
-
-
-
+bring me the root!
