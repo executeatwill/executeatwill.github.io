@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Vulnhub virtual machine; On the path to OSCP this box offered SQL-injection for login and a client side web application that was able to be manipulated to give a foothold to box. Classic enumeration of box to compile a priv-esc.
 
@@ -178,5 +178,3 @@ Execute exploit
 Bring me the root!
 
 -exec
-
-
