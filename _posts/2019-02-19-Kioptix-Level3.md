@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Vulnhub virtual machine; On the path to OSCP this box offered web-application testing with Metasploit, myphpadmin credentials enumeration. Cracking hashes with Hashcat an interesting Priv-Esc which included modifying the sudoer file. 
 
@@ -229,4 +229,3 @@ adding `/bin/sh/` to loneferret && save file
 Bring me the root!
 
 -exec
-
