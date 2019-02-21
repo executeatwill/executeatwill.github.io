@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 Vulnhub virtual machine; On the path to OSCP this box offered enumeration of services with enum4linux and credential extraction via SQL-i. The main escalation occurs from within MySQL through manipulating the sys_exec function. This was a well rounded crafted box.
@@ -234,4 +234,3 @@ Bring me the root!
 
 **Further Reading/Sources:**
  MySQL Root to System Root with lib_mysqludf_sys for Windows and Linux - [link](https://www.adampalmer.me/iodigitalsec/2013/08/13/mysql-root-to-system-root-with-udf-for-windows-and-linux/)
-
