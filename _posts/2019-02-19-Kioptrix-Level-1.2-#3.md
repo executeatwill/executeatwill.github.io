@@ -207,7 +207,7 @@ execute sudo ht
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC08525AD79B48322850AD1912C5BDF4DB72C17615EAC39B7E18253B209C0B95_1550625527269_image.png)
 
 
-playing around till discovered `**ALT+f**` is the command to move around in application
+playing around till discovered `*ALT+f*` is the command to move around in application
 
 Modifying the sudoers file
 
