@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 Vulnhub virtual machine; OSCP prep box, and a very interesting one indeed. This box included a few hints and clues sprinkled around a web application which then pivoted to multiple user escalations along side decryption of cipher-text which led to eventual root.
 
 
