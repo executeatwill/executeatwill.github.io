@@ -245,6 +245,7 @@ Python method:
     press cntl+z 
     stty raw -echo
     fg (enter)
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_3BF4EC4CE04E4C4A36C4F49F58A516E95BCB111A4330487626F5EB5298F8AFD7_1551041611360_image.png)
 
 
