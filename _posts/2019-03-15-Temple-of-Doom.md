@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Vulnhub virtual machine; OSCP prep box and a change of pace. To gain access to box requires an exploitation of node.js and a special component through some encoding leads to RCE. For the priv-esc you work through a service running as another user and pivot to root.
 
@@ -241,5 +241,3 @@ upgrading shell and searching for flag:
 bring me the root!
 
 -exec
-
-
