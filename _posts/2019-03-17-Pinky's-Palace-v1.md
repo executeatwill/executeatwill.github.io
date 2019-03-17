@@ -1,7 +1,6 @@
 ---
-published: false
+published: true
 ---
-# Pinky’s Palace v1
 Vulnhub virtual machine; OSCP prep box, pivoting enumeration through separate web-server to engage the target. Buffer-overflow of an application to gain root.
 
 ----------
