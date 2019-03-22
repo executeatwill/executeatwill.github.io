@@ -1,4 +1,6 @@
-# Pinky’s Palace v2
+---
+published: true
+---
 Vulnhub virtual machine; How bad do you want OSCP box, Lets begin with this is not for the faint of heart. Enumeration to multiple pivots, reverse engineering, buffer overflow all wrapped in to one VM. This box will teach you something new guaranteed, grab a drink you’re going to need one.
 
 ----------
