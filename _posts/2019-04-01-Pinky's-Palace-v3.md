@@ -1,3 +1,6 @@
+---
+published: true
+---
 Vulnhub virtual machine; Enter Version 3 - Experience of multiple engagements with WFUZZ to tunneling through socat and pivoting through ports. Take over a local global library file to encountering a buffer overflow print string bug. Finally, employing a custom kernel exploit. You will learn something new.
 
 ----------
