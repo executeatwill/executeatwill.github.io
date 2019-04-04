@@ -3,8 +3,6 @@ published: true
 ---
 April 4th, 2019, With high anticipation from the cybersecurity community the NSA release the open source of its Software Reverse Engineering (SRE) framework Ghidra. This all gaining traction as the organization reaches out to garner potential new employees. While the effort seem to be an interesting avenue to pursue the infosec community welcomes the open-sourcing of such powerful tools.
 
-
-
 ![source: https://twitter.com/NSAGov/status/1113788370461843461](https://paper-attachments.dropbox.com/s_00E9ABB011398466C10F5E4DF87608A33B1E7F87240EFA3C684D0E4B7CBE3AE2_1554413860789_image.png)
 
 
@@ -18,8 +16,8 @@ Official Installation guide link: https://ghidra-sre.org/InstallationGuide.html
 
 ## Download:
 
-Ghidra Download page: https://www.ghidra-sre.org/
-Github Repository Link: https://github.com/NationalSecurityAgency/ghidra
+- Ghidra Download page: https://www.ghidra-sre.org/
+- Github Repository Link: https://github.com/NationalSecurityAgency/ghidra
 
 
 ## Requirements:
