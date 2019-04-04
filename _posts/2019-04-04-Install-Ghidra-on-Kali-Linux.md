@@ -31,7 +31,7 @@ Hardware:
 Software:
 
 - Java 11 Runtime & Development Kit(JDK) - OpenJDK recommended
-  *installation instructions included within this tutorial.*
+- *installation instructions included within this tutorial.*
 
 
 1. Head to the Ghidra download page and click “Download Ghidra v9.0.2”
@@ -71,8 +71,8 @@ launch ghidra
 
 From this point you can load up a binary or application and move through the compiled code to proceed reverse engineering.
 
-For more information on how this application can be leverage check out this great Youtube video from TechChip
-Link: https://www.youtube.com/watch?v=GuZLAsRNpuI
+For more information on how this application can be leverage check out this great Youtube video from Ghidra Ninja
+Link: https://www.youtube.com/watch?v=fTGTnrgjuGA
 
 
 ## Ghidra Cheat sheet:
