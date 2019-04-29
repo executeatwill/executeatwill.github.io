@@ -507,7 +507,10 @@ change chmod to executable
 
 ----------
 
- If you don’t know who ippsec is check him out at https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA
+don’t know who ippsec is? check him out at:
  
+ Youtube: https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA
  Twitter: https://twitter.com/ippsec
+ 
+ #hailippsec
 
