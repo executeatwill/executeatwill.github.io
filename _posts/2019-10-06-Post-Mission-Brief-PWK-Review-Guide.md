@@ -29,17 +29,17 @@ Prior reading material/Courses
 - Ethical Hacking - Cybrary
 - Advanced Ethical Hacking - Cybrary
 
-- Linux Basics for Hackers - Occupytheweb - https://amzn.to/2OpdJ4c
-- Hacking The Art of Exploitation - Jon Erickson - https://amzn.to/31SNiYw
-- The Shellcoder’s Handbook - Chris Anley - https://amzn.to/2Oo0l09
-- The Web Application Hacker’s Handbook 2nd Edition - Dafydd Stuttard - https://amzn.to/354e9Db
-- OWASP Top 10 - OWASP - https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
-- Red Team Field Manual - Ben Clark - https://amzn.to/2OmOfV7
-- The Hacker Playbook - Peter Kim - https://amzn.to/2VizUL6
+- Linux Basics for Hackers - Occupytheweb - [https://amzn.to/2OpdJ4c](https://amzn.to/2OpdJ4c)
+- Hacking The Art of Exploitation - Jon Erickson - [https://amzn.to/31SNiYw](https://amzn.to/31SNiYw)
+- The Shellcoder’s Handbook - Chris Anley - [https://amzn.to/2Oo0l09](https://amzn.to/2Oo0l09)
+- The Web Application Hacker’s Handbook 2nd Edition - Dafydd Stuttard - [https://amzn.to/354e9Db](https://amzn.to/354e9Db)
+- OWASP Top 10 - OWASP - [https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
+- Red Team Field Manual - Ben Clark - [https://amzn.to/2OmOfV7](https://amzn.to/2OmOfV7)
+- The Hacker Playbook - Peter Kim - [https://amzn.to/2VizUL6](https://amzn.to/2VizUL6)
 - The Hacker Playbook 2 - Peter Kim - [https://amzn.to/2Mn8Vdg](https://amzn.to/2Mn8Vdg)
-- The Hacker Playbook 3 - Peter Kim - https://amzn.to/31PHxLl
-- Violent Python - TJ O’Connor - https://amzn.to/31U4I7e
-- Penetration Testing - Georgia Weidman - https://amzn.to/2OkEKG5
+- The Hacker Playbook 3 - Peter Kim - [https://amzn.to/31PHxLl](https://amzn.to/31PHxLl)
+- Violent Python - TJ O’Connor - [https://amzn.to/31U4I7e](https://amzn.to/31U4I7e)
+- Penetration Testing - Georgia Weidman - [https://amzn.to/2OkEKG5](https://amzn.to/2OkEKG5)
 
 
 # System Setup / Configuration
@@ -49,22 +49,22 @@ Prior reading material/Courses
 
 
 **Hardware:** 
-- 2013 Macbook Pro - https://amzn.to/2AKcJ2D
+- 2013 Macbook Pro - [https://amzn.to/2AKcJ2D](https://amzn.to/2AKcJ2D)
 - 2.4 GHz Intel Core i5 - 8GB DDR3
-- 1TB Samsung 970 - https://amzn.to/2ALF9cD
+- 1TB Samsung 970 - [https://amzn.to/2ALF9cD](https://amzn.to/2ALF9cD)
 - Undervolted with Volta 
 
 - Custom Small Form PC (sfpc)
-- DAN A4 Case - https://www.sfflab.com/products/dan_a4-sfx
-- Ryzen 7 1700 (would recommend 3rd gen) -  https://amzn.to/31LNzfU
-- TridentZ RGB 32GB DDR4 3200 -  https://amzn.to/35cffws
-- Samsung 4TB  -  https://amzn.to/2MamWdS
-- MSI GTX 1070 - https://amzn.to/2LMUlwq
+- DAN A4 Case - [https://www.sfflab.com/products/dan_a4-sfx](https://www.sfflab.com/products/dan_a4-sfx)
+- Ryzen 7 1700 (would recommend 3rd gen) -  [https://amzn.to/31LNzfU](https://amzn.to/31LNzfU)
+- TridentZ RGB 32GB DDR4 3200 -  [https://amzn.to/35cffws](https://amzn.to/35cffws)
+- Samsung 4TB  -  [https://amzn.to/2MamWdS](https://amzn.to/2MamWdS)
+- MSI GTX 1070 - [https://amzn.to/2LMUlwq](https://amzn.to/2LMUlwq)
 
 - x1 Pwnogatchi via @evilsocket: [](https://twitter.com/pwnagotchi)https://twitter.com/pwnagotchi
 
 **Software:**
-- VMware Fusion (mac) - https://amzn.to/2VdouIq
+- VMware Fusion (mac) - [https://amzn.to/2VdouIq](https://amzn.to/2VdouIq)
 - VMware Workcenter (Windows10) 
 - Virtual Box (mac/Windows10)
 
