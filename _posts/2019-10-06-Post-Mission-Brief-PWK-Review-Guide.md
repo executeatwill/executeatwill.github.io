@@ -1,4 +1,4 @@
-Penetration with Kali (PWK) Review Guide after having completed a 90 lab. Resources and tips to help fellow hackers develop & execute a plan for attacking the lab network.
+Penetration with Kali (PWK) Review Guide after having completed 90 lab. Resources and tips to help fellow hackers develop & execute a plan for attacking the lab network.
 
 ----------
 
