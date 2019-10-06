@@ -52,7 +52,7 @@ Prior reading material/Courses
 - 2013 Macbook Pro - https://amzn.to/2AKcJ2D
 - 2.4 GHz Intel Core i5 - 8GB DDR3
 - 1TB Samsung 970 - https://amzn.to/2ALF9cD
-- Undervolted with Volta - fans managed with 
+- Undervolted with Volta 
 
 - Custom Small Form PC (sfpc)
 - DAN A4 Case - https://www.sfflab.com/products/dan_a4-sfx
