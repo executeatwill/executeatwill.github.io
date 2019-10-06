@@ -1,4 +1,4 @@
-# Post Mission Penetration with Kali (PWK) Review Guide
+Penetration with Kali (PWK) Review Guide after having completed a 90 lab. Resources and tips to help fellow hackers develop & execute a plan for attacking the lab network.
 
 ----------
 
@@ -26,20 +26,20 @@ Many throughout the web liken a comparison to Hackthebox (HTB) to which there ar
 *Goal: Keep it simple develop foundation and build upon and grab every piece of prep material I can find along the way to help. Step two don’t get crushed.*
 
 Prior reading material/Courses
-Ethical Hacking - Cybrary
-Advanced Ethical Hacking - Cybrary
+- Ethical Hacking - Cybrary
+- Advanced Ethical Hacking - Cybrary
 
-Linux Basics for Hackers - Occupytheweb - https://amzn.to/2OpdJ4c
-Hacking The Art of Exploitation - Jon Erickson - https://amzn.to/31SNiYw
-The Shellcoder’s Handbook - Chris Anley - https://amzn.to/2Oo0l09
-The Web Application Hacker’s Handbook 2nd Edition - Dafydd Stuttard - https://amzn.to/354e9Db
-OWASP Top 10 - OWASP - https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
-Red Team Field Manual - Ben Clark - https://amzn.to/2OmOfV7
-The Hacker Playbook - Peter Kim - https://amzn.to/2VizUL6
-The Hacker Playbook 2 - Peter Kim - [https://amzn.to/2Mn8Vdg](https://amzn.to/2Mn8Vdg)
-The Hacker Playbook 3 - Peter Kim - https://amzn.to/31PHxLl
-Violent Python - TJ O’Connor - https://amzn.to/31U4I7e
-Penetration Testing - Georgia Weidman - https://amzn.to/2OkEKG5
+- Linux Basics for Hackers - Occupytheweb - https://amzn.to/2OpdJ4c
+- Hacking The Art of Exploitation - Jon Erickson - https://amzn.to/31SNiYw
+- The Shellcoder’s Handbook - Chris Anley - https://amzn.to/2Oo0l09
+- The Web Application Hacker’s Handbook 2nd Edition - Dafydd Stuttard - https://amzn.to/354e9Db
+- OWASP Top 10 - OWASP - https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
+- Red Team Field Manual - Ben Clark - https://amzn.to/2OmOfV7
+- The Hacker Playbook - Peter Kim - https://amzn.to/2VizUL6
+- The Hacker Playbook 2 - Peter Kim - [https://amzn.to/2Mn8Vdg](https://amzn.to/2Mn8Vdg)
+- The Hacker Playbook 3 - Peter Kim - https://amzn.to/31PHxLl
+- Violent Python - TJ O’Connor - https://amzn.to/31U4I7e
+- Penetration Testing - Georgia Weidman - https://amzn.to/2OkEKG5
 
 
 # System Setup / Configuration
@@ -49,24 +49,24 @@ Penetration Testing - Georgia Weidman - https://amzn.to/2OkEKG5
 
 
 **Hardware:** 
-2013 Macbook Pro - https://amzn.to/2AKcJ2D
-2.4 GHz Intel Core i5 - 8GB DDR3
-1TB Samsung 970 - https://amzn.to/2ALF9cD
-Undervolted with Volta - fans managed with 
+- 2013 Macbook Pro - https://amzn.to/2AKcJ2D
+- 2.4 GHz Intel Core i5 - 8GB DDR3
+- 1TB Samsung 970 - https://amzn.to/2ALF9cD
+- Undervolted with Volta - fans managed with 
 
-Custom Small Form PC (sfpc)
-DAN A4 Case - https://www.sfflab.com/products/dan_a4-sfx
-Ryzen 7 1700 (would recommend 3rd gen) -  https://amzn.to/31LNzfU
-TridentZ RGB 32GB DDR4 3200 -  https://amzn.to/35cffws
-Samsung 4TB  -  https://amzn.to/2MamWdS
-MSI GTX 1070 - https://amzn.to/2LMUlwq
+- Custom Small Form PC (sfpc)
+- DAN A4 Case - https://www.sfflab.com/products/dan_a4-sfx
+- Ryzen 7 1700 (would recommend 3rd gen) -  https://amzn.to/31LNzfU
+- TridentZ RGB 32GB DDR4 3200 -  https://amzn.to/35cffws
+- Samsung 4TB  -  https://amzn.to/2MamWdS
+- MSI GTX 1070 - https://amzn.to/2LMUlwq
 
-x1 Pwnogatchi via @evilsocket: [](https://twitter.com/pwnagotchi)https://twitter.com/pwnagotchi
+- x1 Pwnogatchi via @evilsocket: [](https://twitter.com/pwnagotchi)https://twitter.com/pwnagotchi
 
 **Software:**
-VMware Fusion (mac) - https://amzn.to/2VdouIq
-VMware Workcenter (Windows10) 
-Virtual Box (mac/Windows10)
+- VMware Fusion (mac) - https://amzn.to/2VdouIq
+- VMware Workcenter (Windows10) 
+- Virtual Box (mac/Windows10)
 
 [Offensive Security Custom Kali Image](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/) - Would highly recommend using it and customizing it to your own needs as new distros can cause issues while performing PWK exercises.
 
@@ -111,6 +111,7 @@ OSCP [Michael LaSalvia](https://www.youtube.com/user/genxweb) of DigitalOffensiv
 
 ![https://youtu.be/BvLMQMjV9YE](https://paper-attachments.dropbox.com/s_3FD52BCF06F126AFA200877FF5BF78377F0D81036A5EE80B9F6587F992A2342E_1570388638977_image.png)
 
+*source:* https://youtu.be/BvLMQMjV9YE
 
 *Reiterating, this is a solution but not my personal as I’m not a fan of relying solely on the VM image.*
 
@@ -134,7 +135,7 @@ I highly recommend that you take the same approach to off machine saving of targ
 
 I cannot express the full extent of how easy paper made the not taking process and it was completely backup to the cloud. (connection of other people’s computers)
 
-YouTube Dropbox Tour:
+YouTube Dropbox Tour: https://youtu.be/BVCe8v7opUs
 
 ![https://youtu.be/BVCe8v7opUs](https://paper-attachments.dropbox.com/s_3FD52BCF06F126AFA200877FF5BF78377F0D81036A5EE80B9F6587F992A2342E_1570388599475_image.png)
 
