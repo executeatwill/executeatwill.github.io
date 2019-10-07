@@ -61,7 +61,7 @@ Prior reading material/Courses
 - Samsung 4TB  -  [https://amzn.to/2MamWdS](https://amzn.to/2MamWdS)
 - MSI GTX 1070 - [https://amzn.to/2LMUlwq](https://amzn.to/2LMUlwq)
 
-- x1 Pwnogatchi via @evilsocket: [](https://twitter.com/pwnagotchi)https://twitter.com/pwnagotchi
+- x1 Pwnogatchi via @evilsocket:(https://twitter.com/pwnagotchi)https://twitter.com/pwnagotchi
 
 **Software:**
 - VMware Fusion (mac) - [https://amzn.to/2VdouIq](https://amzn.to/2VdouIq)
@@ -84,7 +84,7 @@ Real Life Example:
 ![](https://paper-attachments.dropbox.com/s_3FD52BCF06F126AFA200877FF5BF78377F0D81036A5EE80B9F6587F992A2342E_1570198971462_image.png)
 
 
-*source:* https://twitter.com/Djax_Alpha/status/1174436036417597440
+*source:* [https://twitter.com/Djax_Alpha/status/1174436036417597440](https://twitter.com/Djax_Alpha/status/1174436036417597440)
 
 These are the steps I used to safeguard and backup my image:
 
@@ -107,7 +107,7 @@ Watching many saving their notes with a popular application CherryTree ([Link](h
 ![Image: cherrytree application via giuspen.com](https://www.giuspen.com/images/cherrytree-main_window_text.png)
 
 
-OSCP [Michael LaSalvia](https://www.youtube.com/user/genxweb) of DigitalOffensive had a great video explaining on how to setup rsync to backup cherrytree files to a google drive account that I’ll link below:
+OSCP [Michael LaSalvia of DigitalOffensive](https://www.youtube.com/user/genxweb) had a great video explaining on how to setup rsync to backup cherrytree files to a google drive account that I’ll link below:
 
 ![https://youtu.be/BvLMQMjV9YE](https://paper-attachments.dropbox.com/s_3FD52BCF06F126AFA200877FF5BF78377F0D81036A5EE80B9F6587F992A2342E_1570388638977_image.png)
 
@@ -135,7 +135,7 @@ I highly recommend that you take the same approach to off machine saving of targ
 
 I cannot express the full extent of how easy paper made the not taking process and it was completely backup to the cloud. (connection of other people’s computers)
 
-YouTube Dropbox Tour: https://youtu.be/BVCe8v7opUs
+YouTube Dropbox Tour: [https://youtu.be/BVCe8v7opUs](https://youtu.be/BVCe8v7opUs)
 
 ![https://youtu.be/BVCe8v7opUs](https://paper-attachments.dropbox.com/s_3FD52BCF06F126AFA200877FF5BF78377F0D81036A5EE80B9F6587F992A2342E_1570388599475_image.png)
 
@@ -149,12 +149,12 @@ Throughout the course you will be downloading/cloning many GitHub repositories a
 ![teenage mutant ninja turtles pizza GIF via giphy](https://media1.giphy.com/media/hQzRjWvEEEKlO/giphy.gif?cid=790b761131c5e7ed41c1c108de5223e605a490cffd8f2047&rid=giphy.gif)
 
 
-Every piece of everything I began trying to find a place for it with the “I might need later” tell well… It became too much. Saving links from twitter to Google Keep (note taking application) just became overwhelming. 
+Every piece of everything I began trying to find a place for it with the “I might need later” ... It all became too much. Saving links from twitter to Google Keep (note taking application) just became overwhelming. 
 
 *To this day still don’t have quite a solution for how to cut through all these weeds.*
 
 
-- Takeaway
+**Takeaway**
 
 Save important commands and syntax to Dropbox Paper and use a hierarchy structure. Lean on the search feature to parse through notes.
 
@@ -172,8 +172,8 @@ My initial thoughts after having connected the VPN server was “Ok, now what…
 Network recon:
 A collection of recon scripts that were clearly laid out and offered tailored enumeration should you so be inclined. At the very least worth checking out
 
-Ucki's Recon & Enumeration Pack - https://github.com/ucki/URP
-verison v.01 - https://github.com/ucki/URP-T-v.01
+- Ucki's Recon & Enumeration Pack - [https://github.com/ucki/URP](https://github.com/ucki/URP)
+- verison v.01 - [https://github.com/ucki/URP-T-v.01](https://github.com/ucki/URP-T-v.01)
 
 
 ## Structure
