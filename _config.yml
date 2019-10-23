@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "CTF, hackthebox, vulnhum, writeups, hacking, pentesting"
+keywords: "Jekyll, NexT"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -87,7 +87,7 @@ keywords: "CTF, hackthebox, vulnhum, writeups, hacking, pentesting"
 rss:
 
 # Specify the date when the site was setup
-#since: 2018
+#since: 2015
 
 # icon between year and author @Footer
 authoricon: heart
@@ -214,9 +214,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
-  GitHub: https://executeatwill.github.io/ctf/
-  Twitter: https://twitter.com/executeatwill
-  Website: http://executeatwill.sh
+  #LinkLabel: Link
 
 
 # Social Links Icons
@@ -235,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /assets/images/default_avatar.jpg
+#avatar:
 
 
 # Table Of Contents in the Sidebar
@@ -320,7 +318,7 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: false
-  min2read: true
+  min2read: false
   separated_meta: true
 
 # Wechat Subscriber
@@ -347,15 +345,15 @@ post_copyright:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: true
-  image: https://d2mxuefqeaa7sj.cloudfront.net/s_6AB34764338E0F071253C2A8E401C26EC233CA9E3D0D10D1B140682A90E22DC2_1550252602201_eaw800x450.png
+  enabled: false
+  image:
 
 
 # Code Highlight theme
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night bright
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------
@@ -364,7 +362,7 @@ highlight_theme: night bright
 
 # MathJax Support
 mathjax:
-  enable: true
+  enable: false
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -383,11 +381,37 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname: execatwill
+  shortname:
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
   hide: false
+
+# <wildfire>
+wildfire:
+  enable: false
+  # version - It's recommended to use the following versions.
+  loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
+  useDev: true
+  version: 0.5.6 
+  # database config
+  databaseProvider: firebase # or wilddog
+  firebase: # your firebase config goes here ↓
+    apiKey: 
+    authDomain:
+    databaseURL:
+    projectId:
+    storageBucket:
+    messagingSenderId:
+  wilddog: # your wilddog config goes here ↓
+    siteId:
+  # other configs
+  theme: light # or dark
+  locale: en # or other locales, e.g. zh-CN
+  defaultAvatarURL: 
+# Any question? 
+# Raise an issue here: https://github.com/cheng-kang/wildfire/issues
+# </wildfire>
 
 # Hypercomments
 #hypercomments_id:
@@ -438,7 +462,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-120581234-1
+#google_analytics:
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -562,7 +586,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
