@@ -15,7 +15,7 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: http://executeatwill.github.io
-baseurl: /ctf
+baseurl: executeatwill.github.io
 permalink: pretty
 
 # Pagination
@@ -712,5 +712,3 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
-
-theme: jekyll-theme-hacker 
