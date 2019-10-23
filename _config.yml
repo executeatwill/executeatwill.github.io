@@ -227,6 +227,8 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  Github: fa-github
+  Twitter: fa-twitter
 
 
 # Sidebar Avatar
