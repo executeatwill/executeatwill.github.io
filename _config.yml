@@ -4,11 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-<<<<<<< HEAD
-title: ExecuteatWill
+
 =======
-title: NexT
->>>>>>> 42a5a1bbb89162da8a5f949f1caf32ae867c077a
+title: ExecuteatWill
 subtitle:
 description:
 author: John Doe
@@ -18,8 +16,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
+url: http://executeatwill.github.io
+baseurl: /executeatwill.github.io
 permalink: pretty
 
 # Pagination
