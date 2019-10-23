@@ -4,6 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
+layout: post
 title: Penetration Analysis & Security Research
 subtitle: comprehensive review/CTF writeups of sys vulnerabilities 
 description: Write-up of sys vuln's & exploitations
