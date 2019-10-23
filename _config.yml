@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------
+# Jekyll & Global Configuration
+## Docs: https://jekyllrb.com/docs/configuration/
+# ---------------------------------------------------------------
+
+# Site
+layout: post
+title: Penetration Analysis & Security Research
+subtitle: comprehensive review/CTF writeups of sys vulnerabilities 
+description: Write-up of sys vuln's & exploitations
+author: ExecuteatWill
+# Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
+language: en
+date_format: '%Y-%m-%d'
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
+url: http://executeatwill.github.io
+baseurl: /ctf
+permalink: pretty
+
+theme: jekyll-theme-hacker
