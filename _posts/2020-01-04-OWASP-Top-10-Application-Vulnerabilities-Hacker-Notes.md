@@ -206,7 +206,7 @@ As intruder only allows for 1 thread on the Community Edition of Burp Suite Turb
 
 
 
-## 1. Injection Attacks
+## Injection Attacks
 - Navigate to: `http://localhost:3000/#/score-board`
 - “Hide all” then Select “Injection”
 
@@ -261,7 +261,7 @@ The SQL injection allows for a true statement which is then processed by the app
 
 
 
-## 2. Broken Authentication
+## Broken Authentication
 
 OWASP Link: https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication
 
@@ -295,7 +295,7 @@ Testing for session fixation involves creating an account and logging in and bas
 
 
 
-## 3. Sensitive Data Exposure
+## Sensitive Data Exposure
 - Extracting data that is available who expose the web-server
 
 
@@ -314,7 +314,7 @@ Location: `/ftp` was discovered and contains files that should not be facing the
 
 
 
-## 4. XML External Entities (XXE) Overview
+## XML External Entities (XXE) Overview
 
 ![](https://paper-attachments.dropbox.com/s_47ABE09D1CB9E70832B547DB1A053F40CF14ED5D2061471E0EA66D4646A23675_1578066565045_image.png)
 
@@ -385,7 +385,7 @@ save the payload locally as `test.xml`
 
 
 
-## 5. Broken Access Control
+## Broken Access Control
 - If there was an `/admin` panel when normal user should not have access too.
 - changeing `?=5` to `?=6` and return another accounts information -  Insecure Direct Object Reference (IDOR)
 
@@ -418,7 +418,7 @@ we have a “hidden” id event occuring - deleteing the word hidden results in 
 
 
 
-## 6. Security Misconfiguration
+## Security Misconfiguration
 - If something was configured incorrectly in anyway is considered a misconfiguration
 - Default credential left unchanged is an example
 - Application throwing detailed/verbose error messaging
@@ -429,7 +429,7 @@ OWASP Link: https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfigura
 
 
 
-## 7. Cross Site Scripting (XSS)
+## Cross Site Scripting (XSS)
 
 **Three types of Cross Site Scripting**
 
@@ -582,7 +582,7 @@ Level 1: `<script>alert(``'``xss``'``)</script>`
 
 
 
-## 8. Insecure Deserialization 
+## Insecure Deserialization 
 
 OWASP Link: https://www.owasp.org/index.php/Top_10-2017_A8-Insecure_Deserialization
 
@@ -603,7 +603,7 @@ Github Link: https://github.com/frohoff/ysoserial
 
 
 
-## 9. Using Components with Known Vulnerabilities
+## Using Components with Known Vulnerabilities
 - Identifying software that has not been upgraded or patched and leveraging that aspect
 
 Burp Suite contains a few tools that can be used:
@@ -615,7 +615,7 @@ Burp Suite contains a few tools that can be used:
 
 
 
-## 10. Insufficient Logging & Monitoring
+## Insufficient Logging & Monitoring
 - Tracking is important and should be include on web servers (any/everything)
 
 OWASP Link: https://www.owasp.org/index.php/Top_10-2017_A10-Insufficient_Logging%26Monitoring
