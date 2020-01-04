@@ -1,7 +1,3 @@
-# OWASP Top 10 Application Vulnerabilities - Hacker Notes
-
-OWASP-Top-10-Application-Vulnerabilities-Hacker-Notes
-
 Detailed overview of the OWASP Top 10 utilizing OWASP Juiceshop VM to cover application vulnerabilities.
 
 ----------
