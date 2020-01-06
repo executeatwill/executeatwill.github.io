@@ -266,7 +266,7 @@ file received:
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577786188527_image.png)
 
 
-## Import file.zip into Bloodhound
+**Import file.zip into Bloodhound**
 Upload file.zip via upload button within bloodhound:
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577786521879_image.png)
