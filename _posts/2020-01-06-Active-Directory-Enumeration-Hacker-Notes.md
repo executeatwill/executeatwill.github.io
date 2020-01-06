@@ -1,4 +1,4 @@
-Setup of an Active Directory lab within Azure. Enumeration of lab with PowerView and Bloodhound setup/usage.
+Post enumeration of lab with credentials/hashes captured. Overview of PowerView and Bloodhound setup/usage.
 
 ----------
 
@@ -8,14 +8,6 @@ By continued reading, you acknowledge the aforementioned user risks/responsibili
 ----------
 
 Based off TheCyberMentor amazing Udemy course available at [https://www.udemy.com/course/practical-ethical-hacking/](https://www.udemy.com/course/practical-ethical-hacking/)
-
-# Setup an Active Directory/Domain Controller within Azure:
-- Great Setup Guide by [Kamran Bilgrami](https://medium.com/@kamran.bilgrami?source=post_page-----6c67a7eddd7f----------------------)
-
-Link: https://medium.com/@kamran.bilgrami/ethical-hacking-lessons-building-free-active-directory-lab-in-azure-[6c67a7eddd7f](https://medium.com/@kamran.bilgrami/ethical-hacking-lessons-building-free-active-directory-lab-in-azure-6c67a7eddd7f)
-
-![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1578289811856_image.png)
-
 
 
 # Requirements/Tools
