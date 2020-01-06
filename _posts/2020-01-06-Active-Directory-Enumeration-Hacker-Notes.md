@@ -205,7 +205,7 @@ login with `neo4j:neo4j` - prompted to change password
 
 *opted to used kali password.*
 
- ## Neo4j Dashboard
+## Neo4j Dashboard
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577783062510_image.png)
 
@@ -219,7 +219,7 @@ login with `neo4j:neo4j` - prompted to change password
 
 Login with neo4j account and neo4j account URL. - Bloodhoud setup and next step to pull data with injester.
 
- ## Pull data with In-jester
+## Pull data with In-jester
 
 - invoke bloodhound - powershell 
 
@@ -266,7 +266,7 @@ file received:
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577786188527_image.png)
 
 
- ## Import file.zip into Bloodhound
+## Import file.zip into Bloodhound
 Upload file.zip via upload button within bloodhound:
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577786521879_image.png)
