@@ -9,7 +9,7 @@ By continued reading, you acknowledge the aforementioned user risks/responsibili
 
 Based off TheCyberMentor amazing Udemy course available at [https://www.udemy.com/course/practical-ethical-hacking/](https://www.udemy.com/course/practical-ethical-hacking/)
 
-## Setup an Active Directory/Domain Controller within Azure:
+# Setup an Active Directory/Domain Controller within Azure:
 - Great Setup Guide by [Kamran Bilgrami](https://medium.com/@kamran.bilgrami?source=post_page-----6c67a7eddd7f----------------------)
 
 Link: https://medium.com/@kamran.bilgrami/ethical-hacking-lessons-building-free-active-directory-lab-in-azure-[6c67a7eddd7f](https://medium.com/@kamran.bilgrami/ethical-hacking-lessons-building-free-active-directory-lab-in-azure-6c67a7eddd7f)
@@ -18,8 +18,8 @@ Link: https://medium.com/@kamran.bilgrami/ethical-hacking-lessons-building-free-
 
 
 
-
-With credentials recovered from the mitm attack we can use tools 
+# Requirements/Tools
+Requirements: With credentials recovered from the mitm attack we can use tools 
 
 Tools:
 
@@ -27,7 +27,7 @@ Tools:
 - Bloodhound
 
 
-## Using PowerView
+# Using PowerView
 
 Download `PowerView.ps1` to target
 Execute policy bypass (used to execute scripts - not security)
@@ -51,7 +51,7 @@ https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
 
 [https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993](https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993)
 
-**Get Domain Policy:**
+## Get Domain Policy:
 
     Get-DomainPolicy
 
@@ -75,7 +75,7 @@ https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
 *find password length and just start attacking with 7 chars passwords.*
 
 
-**Find Users:**
+## Find Users:
 
     Get-NetUser
 
@@ -95,14 +95,14 @@ Refined list:
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577770721395_image.png)
 
 
-**List property we can search for via pipe:**
+## List property we can search for via pipe:
 
     Get-UserProperty
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577770804832_image.png)
 
 
-**Find properties of the passwords last set:**
+## Find properties of the passwords last set:
 
     Get-UserProperty -Properties pwdlastset
 
@@ -111,14 +111,14 @@ Refined list:
 
 *can find if we have stale passwords on the network.*
 
-**Check Logon Count (used to identify honeypot accounts):**
+## Check Logon Count (used to identify honeypot accounts):
 
     Get-UserProperty -Properties logoncount
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577770956461_image.png)
 
 
-**Check bad password counts (You can see if an account is under attack):**
+## Check bad password counts (You can see if an account is under attack):
 
     Get-UserProperty -Properties badpwdcount
 
@@ -141,7 +141,7 @@ more information:
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577771359603_image.png)
 
 
-**Find the operating systems:**
+## Find the operating systems:
 
     Get-NetComputer -FullData | Select OperatingSystem
 
@@ -157,14 +157,14 @@ Find Domain Admins
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577771561944_image.png)
 
 
-**Get Members of Admins**
+## Get Members of Admins
 
     Get-NetGroupMember -GroupName "Domain Admins"
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577771645744_image.png)
 
 
-**Find All SMB Shares on the Network:**
+## Find All SMB Shares on the Network:
 
     Invoke-ShareFinder
 
@@ -178,7 +178,7 @@ Find All Group Policies:
 
 
 
-**Check GPO for changes in displaynames and when they were changed:**
+## Check GPO for changes in displaynames and when they were changed:
 
     Get-NetGPO | select displayname, whenchanged
 
@@ -189,7 +189,7 @@ Find All Group Policies:
 
 
 
-## Bloodhound
+# Bloodhound
 
 Downloads the data from Active Directory and put into a visual graph.
 
@@ -213,12 +213,12 @@ login with `neo4j:neo4j` - prompted to change password
 
 *opted to used kali password.*
 
- **Neo4j Dashboard**
+ ## Neo4j Dashboard
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577783062510_image.png)
 
 
-**Launch Bloodhound - Linux/Kali**
+## Launch Bloodhound - Linux/Kali
 
     bloodhound
 
@@ -227,7 +227,7 @@ login with `neo4j:neo4j` - prompted to change password
 
 Login with neo4j account and neo4j account URL. - Bloodhoud setup and next step to pull data with injester.
 
- **Pull data with In-jester**
+ ## Pull data with In-jester
 
 - invoke bloodhound - powershell 
 
@@ -274,7 +274,7 @@ file received:
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577786188527_image.png)
 
 
- **Import file.zip into Bloodhound**
+ ## Import file.zip into Bloodhound
 Upload file.zip via upload button within bloodhound:
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577786521879_image.png)
@@ -303,7 +303,7 @@ Neoj4 BloodHound issues:
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577793127854_image.png)
 
 
-**Launch Bloodhound - Windows**
+## Launch Bloodhound - Windows
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577793265535_image.png)
 
@@ -313,7 +313,7 @@ From this point was able to load the `file.zip` into BloodHound:
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577793298311_image.png)
 
 
-**Queries:**
+## Queries:
 Finding domain admins via “Find all Domain Admins” query
 
 ![](https://paper-attachments.dropbox.com/s_D94CB79C33A1BA2B22BD21F66E8B42DCFAD52B114B1A46DC9EDFB5A1D4A8136D_1577793434481_image.png)
