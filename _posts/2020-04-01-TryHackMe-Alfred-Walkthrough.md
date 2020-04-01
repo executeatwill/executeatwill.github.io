@@ -1,8 +1,11 @@
-# Alfred
-
-
 Exploited Jenkins gained an initial shell, then escalated privileges by exploiting Windows authentication tokens. Deployment of meterpreter with web_delivery. 
 
+----------
+
+Legal Usage: The information provided by executeatwill is to be used for educational purposes only. The website creator and/or editor is in no way responsible for any misuse of the information provided. All the information on this website is meant to help the reader develop penetration testing and vulnerability aptitude to prevent attacks discussed. In no way should you use the information to cause any kind of damage directly or indirectly. Information provided by this website is to be regarded from an “ethical hacker” standpoint. Only preform testing on systems you OWN and/or have expressed written permission. Use information at your own risk.
+By continued reading, you acknowledge the aforementioned user risks/responsibilities.
+
+----------
 
 ![](https://paper-attachments.dropbox.com/s_61BA8F69E29EA135ED40C9EA88A2EC4EA2D184DC38B2C055BCF95CCA7FDAF01A_1585775160807_image.png)
 
