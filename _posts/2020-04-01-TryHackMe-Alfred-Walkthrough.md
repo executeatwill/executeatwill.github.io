@@ -72,8 +72,9 @@ Under “Build” section of the `/job/project/configure` the “whoami” offer
 
 # Reverse Shell
 
-using nishang `*PowerShellTcp.ps1*` to create a reverse shell:
-Github: https://github.com/samratashok/nishang.git
+using nishang `PowerShellTcp.ps1` to create a reverse shell:
+
+Github Link: https://github.com/samratashok/nishang.git
 
 creating webserver on local machine via python3
 
