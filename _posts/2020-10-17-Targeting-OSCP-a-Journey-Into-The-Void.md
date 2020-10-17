@@ -29,7 +29,7 @@ Jumping into the first exam attempt I choked. My mistakes from the labs became g
 
 enters depression and imposture syndrome… This is real and you should be very aware of these feelings. You must have the “why” dialed in to call upon in these times.
 
-**Time to Rise Above** 
+## Time to Rise Above 
 
 ![](https://paper-attachments.dropbox.com/s_7075241856652EF31BB91F5A4E9433ABF28A4C020A8BFD9F936C74F79D6A3265_1601163642310_Full_F-22_Demo_Exclusive_Look_Inside_the_Raptor.gif)
 
