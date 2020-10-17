@@ -80,7 +80,7 @@ It felt different right from the start. I had the methodology that I was missing
 ## Exam and Lab Reports
 There is more to this than meets the eye. Make sure you thoroughly read all the instructions given to you by Offensive security (then read them again). My recommendation is to do as I did and use the standard template offered. ([Offensive Security Lab and Exam - Template](https://www.offensive-security.com/pwk-online/PWK-Example-Report-v1.pdf))
 
-Could you use something else, sure. In the end the end you should be focused on NOT complicating your life not looking for ways to make it harder. 
+Could you use something else, sure. In the end you should be focused on NOT complicating your life not looking for ways to make it harder. 
 
 *Key Takeaway: You have the ability to receive up to 5pts extra for completing the lab exercises. Imagine how you would feel if all you needed was those 5pts to pass? My flight instructor would drill into our heads “It’s better to be on the ground wishing you were in the air, than in the air wishing you were on the ground”.*
 
