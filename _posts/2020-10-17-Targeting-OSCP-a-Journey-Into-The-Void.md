@@ -18,7 +18,7 @@ Difficult, yes.
 
 You are going to need to have an honest conversation with yourself. “Is this something I truly want?” and only you can honestly answer it.
 
-**First Attempt**
+## First Attempt
 I had initially signed up for a 90 Day - Penetration with Kali (PWK) Lab and crossed the borders of all networks tackling box after box on the proverbial “struggle bus”. Leading me to accomplish a majority of the boxes but lacking that methodology needed.
 
 *Key Takeaway: I failed to realize the purpose of the labs and was focused on an arbitrary number of boxes. I didn’t take into account that this is where you would practice targeting services and honing your skills. I treated the whole event as a Capture the Flag (CTF). This was a mistake.*
@@ -38,9 +38,9 @@ enters depression and imposture syndrome… This is real and you should be very 
 After taking some time to reflect and really dial in my personal “why” and we got back into the zone analyzing my weakness of stack overflows and developed a concrete methodology. I knew what I needed was more experience and so into the fire I went:
 
 Full Course Immersion:
-Udemy - [Practical Ethical Hacking - The Complete Course](https://www.udemy.com/course/practical-ethical-hacking/)
-Udemy - [Windows Privilege Escalation for Beginners](https://www.udemy.com/course/windows-privilege-escalation-for-beginners/)
-Udemy - [Linux Privilege Escalation for Beginners](https://www.udemy.com/course/linux-privilege-escalation-for-beginners/)
+- Udemy - [Practical Ethical Hacking - The Complete Course](https://www.udemy.com/course/practical-ethical-hacking/)
+- Udemy - [Windows Privilege Escalation for Beginners](https://www.udemy.com/course/windows-privilege-escalation-for-beginners/)
+- Udemy - [Linux Privilege Escalation for Beginners](https://www.udemy.com/course/linux-privilege-escalation-for-beginners/)
 
 Virtual Hacking Labs - [30 Days](https://www.virtualhackinglabs.com/) (Only accomplished a handful boxes - PWK Lab reminiscent)
 TryHackMe - [Offensive Pentesting Path](https://tryhackme.com/path/outline/pentesting) (48hrs of tranining)
@@ -48,11 +48,11 @@ TryHackMe - [Offensive Pentesting Path](https://tryhackme.com/path/outline/pente
 ![](https://pbs.twimg.com/media/Eh05VAKXkAUeHIF?format=png&name=medium)
 
 Buffer Overflow Training:
-TryHackMe - [Buffer Overflow Prep](https://tryhackme.com/room/bufferoverflowprep)
-TryHackMe - [Brainpan](https://tryhackme.com/room/brainpan)
-TryHackMe - [Sudo Buffer Overflow](https://tryhackme.com/room/sudovulnsbof)
-TryHackMe - [Gatekeeper](https://tryhackme.com/room/gatekeeper)
-TryHackMe - [Brainstorm](https://tryhackme.com/room/brainstorm)
+- TryHackMe - [Buffer Overflow Prep](https://tryhackme.com/room/bufferoverflowprep)
+- TryHackMe - [Brainpan](https://tryhackme.com/room/brainpan)
+- TryHackMe - [Sudo Buffer Overflow](https://tryhackme.com/room/sudovulnsbof)
+- TryHackMe - [Gatekeeper](https://tryhackme.com/room/gatekeeper)
+- TryHackMe - [Brainstorm](https://tryhackme.com/room/brainstorm)
 
 ![](https://paper-attachments.dropbox.com/s_7075241856652EF31BB91F5A4E9433ABF28A4C020A8BFD9F936C74F79D6A3265_1602959370568_image.png)
 
@@ -60,12 +60,12 @@ I needed to sharpen up my stills and to buckled in for the ride.
 
 ![](https://paper-attachments.dropbox.com/s_7075241856652EF31BB91F5A4E9433ABF28A4C020A8BFD9F936C74F79D6A3265_1601163247500_VIOLENT_Super_Hornets_Carrier_Catapult_Takeoffs__Flight_Deck_Ops_USS_Theodore_Roosevelt.gif)
 
-**Second Attempt**
+## Second Attempt
 
 Leading up to scheduling the exam, I created a plan to review privilege escalation and to do that I would use Tib3rius courses:
 
-Udemy - [Windows Privilege Escalation for OSCP & Beyond!](https://www.udemy.com/course/windows-privilege-escalation/)
-Udemy - [Linux Privilege Escalation for OSCP & Beyond!](https://www.udemy.com/course/linux-privilege-escalation/)
+- Udemy - [Windows Privilege Escalation for OSCP & Beyond!](https://www.udemy.com/course/windows-privilege-escalation/)
+- Udemy - [Linux Privilege Escalation for OSCP & Beyond!](https://www.udemy.com/course/linux-privilege-escalation/)
 
 I put the exam three weeks into the future. First weekend leading to exam completing a course, second weekend accomplish second course. Third weekend, compile my lab notes and exercises completely formatted and ready for submission along with setup exam lab template (based off lab template).
 
