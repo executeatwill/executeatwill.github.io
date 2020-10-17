@@ -42,8 +42,8 @@ Full Course Immersion:
 - Udemy - [Windows Privilege Escalation for Beginners](https://www.udemy.com/course/windows-privilege-escalation-for-beginners/)
 - Udemy - [Linux Privilege Escalation for Beginners](https://www.udemy.com/course/linux-privilege-escalation-for-beginners/)
 
-Virtual Hacking Labs - [30 Days](https://www.virtualhackinglabs.com/) (Only accomplished a handful boxes - PWK Lab reminiscent)
-TryHackMe - [Offensive Pentesting Path](https://tryhackme.com/path/outline/pentesting) (48hrs of tranining)
+- Virtual Hacking Labs - [30 Days](https://www.virtualhackinglabs.com/) (Only accomplished a handful boxes - PWK Lab reminiscent)
+- TryHackMe - [Offensive Pentesting Path](https://tryhackme.com/path/outline/pentesting) (48hrs of tranining)
 
 ![](https://pbs.twimg.com/media/Eh05VAKXkAUeHIF?format=png&name=medium)
 
