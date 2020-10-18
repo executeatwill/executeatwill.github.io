@@ -86,7 +86,7 @@ Could you use something else, sure. In the end you should be focused on NOT comp
 
 ## System Shakedown
 
-The days leading up to your exam you should perform a shake down of your system. Understand you will be taxing it with your VM, host system and the monitoring software used by offensive security. 
+The days leading up to your exam you should perform a shake down of your system. Understand you will be taxing it with your VM, host system and the monitoring software used by Offensive Security. 
 
 Take a snapshot of your VM you plan to use during the exam and make sure you have a plan for disaster.
 
