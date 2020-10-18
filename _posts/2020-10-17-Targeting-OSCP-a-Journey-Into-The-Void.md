@@ -56,7 +56,7 @@ Buffer Overflow Training:
 
 ![](https://paper-attachments.dropbox.com/s_7075241856652EF31BB91F5A4E9433ABF28A4C020A8BFD9F936C74F79D6A3265_1602959370568_image.png)
 
-I needed to sharpen up my stills and to buckled in for the ride. 
+I needed to sharpen up my skills and buckled in for the ride. 
 
 ![](https://paper-attachments.dropbox.com/s_7075241856652EF31BB91F5A4E9433ABF28A4C020A8BFD9F936C74F79D6A3265_1601163247500_VIOLENT_Super_Hornets_Carrier_Catapult_Takeoffs__Flight_Deck_Ops_USS_Theodore_Roosevelt.gif)
 
