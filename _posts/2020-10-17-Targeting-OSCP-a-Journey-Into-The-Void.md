@@ -16,7 +16,7 @@ At the destination of this journey, you will be a different person. You are requ
 Impossible, no. 
 Difficult, yes.
 
-You are going to need to have an honest conversation with yourself. “Is this something I truly want?” and only you can honestly answer it.
+You are going to need to have an honest conversation with yourself. “Is this something I truly want?” and only you can honestly answer.
 
 ## First Attempt
 I had initially signed up for a 90 Day - Penetration with Kali (PWK) Lab and crossed the borders of all networks tackling box after box on the proverbial “struggle bus”. Leading me to accomplish a majority of the boxes but lacking that methodology needed.
