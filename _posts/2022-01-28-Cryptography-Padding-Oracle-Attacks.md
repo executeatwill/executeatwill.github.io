@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Stepping through understanding padding on block cipher algorithms AES, 3DES in Electronic Code Block (ECB and Cipher Block Chaining (CBC) modes. Decryption of session cookie is of a vulnerable webapps via Oracle Attack.
 
@@ -160,4 +160,3 @@ Page refreshed:
 ![](https://paper-attachments.dropbox.com/s_6DDAF448B538453129C7A542DEA81938EEA105A8AB739E29584AAB7FF8CD8BB5_1643404341357_image.png)
 
 video source reference: https://www.youtube.com/watch?v=ilBFiecaO4I
-
