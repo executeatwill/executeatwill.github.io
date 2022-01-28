@@ -25,8 +25,8 @@ the cons of these two modes:
 **Two Types of Padding Standards**
 
 Public Key Cryptography Standards
-PKCS #7 - current used standard - allows block sizes up to 255
-PKCS #5 -  prior standard only applicable for 8 byte blocks
+- PKCS #7 - current used standard - allows block sizes up to 255
+- PKCS #5 -  prior standard only applicable for 8 byte blocks
 
 Note: Padding will be composed of the same number as equals the number the bytes required
 
