@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Pivoted through a network and compromising a public facing web machine and proceeding to tunnel traffic to access other machines in Wreath's network. Focus on full scope penetration test incorporating the Empire C2 Framework.
 
@@ -1635,6 +1635,3 @@ Consider the following brief to be the "report-handling procedures" for this ass
 Outstanding box would highly recommend to new to advanced security practitioner.
 
 -exec
-
-
-
