@@ -1557,6 +1557,7 @@ Stop/Start Service
 
     sc stop SystemExplorerHelpService
     sc start SystemExplorerHelpService
+
 ![](https://paper-attachments.dropbox.com/s_AA3ECD4DEB7CCFEEB9E9A8742F598F315528988491FA0985E2201EB5CF96B23F_1649089151604_image.png)
 
 
