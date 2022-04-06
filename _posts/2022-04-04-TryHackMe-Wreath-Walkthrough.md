@@ -1635,5 +1635,3 @@ Consider the following brief to be the "report-handling procedures" for this ass
 Outstanding box would highly recommend to new to advanced security practitioner.
 
 -exec
-
-<a href="https://www.buymeacoffee.com/execatwill"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=execatwill&button_colour=5F7FFF&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00" /></a>
