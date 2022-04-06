@@ -162,5 +162,3 @@ Page refreshed:
 video source reference: https://www.youtube.com/watch?v=ilBFiecaO4I
 
 
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="execatwill" data-color="#5F7FFF" data-emoji="🍕" data-font="Arial" data-text="Buy me a pizza" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
