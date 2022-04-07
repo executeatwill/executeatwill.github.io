@@ -14,14 +14,15 @@ Legal Usage:
 
 Keep in mind by using your GPU the faster the clock speed the faster it will crack hashes. Understand with increased speed comes increased heat. Our goal should be to ensure we control the heat being generated from large password lists to which I recommend MSI Afterburner.
 
-(recommended) - MSI Afterburner can be used to monitor temps/fans/overclock GPUs and is found at:
+(recommended) - MSI Afterburner can be used to monitor/overclock GPUs and is found at:
 
 https://www.msi.com/page/afterburner
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549915242529_image.png)
 
 
-# Hashcat Install
+
+
 
 First head over to:
 https://hashcat.net/hashcat/
@@ -47,7 +48,7 @@ within the hash.txt - add hashes you would like to crack.
 within the cracked.txt - you should have cracked hashes append here.
 
 
-# Testing a MD5 hash
+Testing a MD5 hash
 create a quick MD5 hash at: http://www.miraclesalad.com/webtools/md5.php
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549911294376_image.png)
@@ -58,6 +59,7 @@ create a quick MD5 hash at: http://www.miraclesalad.com/webtools/md5.php
 or within Kali:
 
     echo -n hashcat | md5sum
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549911397927_image.png)
 
 
@@ -77,7 +79,7 @@ change directory and navigate to hashcat directory.
 
 
 
-# Hashcat Help file - Quick Reference
+Hashcat Help file - Quick Reference
 
     hashcat - advanced password recovery
     
@@ -564,7 +566,7 @@ change directory and navigate to hashcat directory.
 
 
 
-# Brute Force Attacking:
+Brute Force Attacking:
 
 
     hashcat64.exe -m0 -a3 -o cracked.txt hash.txt
@@ -591,7 +593,7 @@ After a few seconds MD5 is cracked
 *In this example it took 10s to crack this MD5 hash using brute force with x1 GTX 1070.*
 
 
-# Hashcat GUI 
+Hashcat GUI 
 For a bit easier user experience I recommend checking out Hashcat GUI. 
 
 Download: https://hashkiller.co.uk/hashcat-gui.aspx
@@ -625,7 +627,7 @@ https://hashkiller.co.uk/downloads.aspx
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549915425936_image.png)
 
 
-# Starting Hashcat GUI
+Starting Hashcat GUI
 Locate and run HashcatGUI.exe
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549915512273_image.png)
@@ -652,3 +654,4 @@ to run Click “I”m a HashKiller”
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549917112323_image.png)
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_574A84917F2386108D7471B26020EB1B51D6E2494CDCA652B35B8F05C068E058_1549917133862_image.png)
+
