@@ -28,7 +28,7 @@ In this network, we will cover several methods that can be used to breach AD. Th
 
 Set the DNS as the THMDC on the network diagram.
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled.png)
+![\Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled.png]
 
 # OSINT and Phishing
 
