@@ -3,6 +3,12 @@ published: false
 ---
 Walkthrough of Breaching Active Directory on TryHackMe coving topics of Rough LDAP Servers to capture Credentials, Authentication Relays using Responder and Recovering image passwords within PXE Boot Images from Microsoft Deployment Toolkit.
 
+----------
+
+Legal Notice && Usage: *The information provided by executeatwill is to be used for educational purposes only. The website creator and/or editor is in no way responsible for any misuse of the information provided. All the information on this website is meant to help the reader develop penetration testing and vulnerability aptitude to prevent attacks discussed. In no way should you use the information to cause any kind of damage directly or indirectly. Information provided by this website is to be regarded from an “*[*ethical hacker*](https://www.dictionary.com/browse/ethical-hacker)*” standpoint. Only preform testing on systems you OWN and/or have expressed written permission. Use information at your own risk.* *By continuing, you acknowledge the aforementioned user risk/responsibilities.*
+
+----------
+
 
 # Introduction to AD Breaches
 
