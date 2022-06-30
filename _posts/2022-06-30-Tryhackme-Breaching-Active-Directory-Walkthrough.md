@@ -50,7 +50,7 @@ is another excellent method to breach AD. Phishing usually entices users to eith
 
 A detailed room on phishing can be found [here.](https://tryhackme.com/module/phishing)
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%201.png)
+[https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%201.png)
 
 # NTLM Authenticated Services
 
@@ -65,7 +65,7 @@ New Technology LAN Manager (NTLM) is the suite of security protocols used to aut
 
 NetNTLM, also often referred to as Windows Authentication or just NTLM Authentication, allows the application to play the role of a middle man between the client and AD. All authentication material is forwarded to a Domain Controller in the form of a challenge, and if completed successfully, the application will authenticate the user.
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%202.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%202.png)
 
 **Python3 NTLM Password Spray Script**
 
@@ -108,7 +108,7 @@ python ntlm_passwordspray.py -u usernames.txt -f za.tryhackme.com -p Changeme123
 
 results:
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%203.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%203.png)
 
 # LDAP Bind Credentials
 
@@ -124,11 +124,11 @@ LDAP authentication is a popular mechanism with third-party (non-Microsoft) appl
 - Printers
 - VPNs
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%204.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%204.png)
 
 **Access Printer Site**
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%205.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%205.png)
 
 Setup Listener to locally on port 389 LDAP to see if cleartext password will be transmitted.
 
@@ -136,7 +136,7 @@ Setup Listener to locally on port 389 LDAP to see if cleartext password will be 
 
 returned response after test:
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%206.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%206.png)
 
 `supportedCapabilities` 
 response tells us we have a problem. Essentially, before the printer sends over the credentials, it is trying to negotiate the LDAP authentication method details.
@@ -239,7 +239,7 @@ Test LDAP for modification
 ldapsearch -H ldap:// -x -LLL -s base -b "" supportedSASLMechanisms
 ```
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%207.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%207.png)
 
 **Setup TCPDump for port 389**
 
@@ -247,7 +247,7 @@ ldapsearch -H ldap:// -x -LLL -s base -b "" supportedSASLMechanisms
 
 captured downgraded password:
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%208.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%208.png)
 
 # Authentication Relays
 
@@ -292,7 +292,7 @@ In some instances, however, we can take this a step further by trying to relay t
 
 This is why blind relays are not usually popular. Ideally, you would first breach AD using another method and then perform enumeration to determine the privileges associated with the account you have compromised. From here, you can usually perform lateral movement for privilege escalation across the domain. However, it is still good to fundamentally under how a relay attack works, as shown in the diagram below:
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%209.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%209.png)
 
 **Captured credentials**
 
@@ -300,7 +300,7 @@ This is why blind relays are not usually popular. Ideally, you would first breac
 svcFileCopy::ZA:e261928ca30f5e29:BE3D696BEC42658212EF4B4982B8F673:010100000000000080AC57F79A8CD801E31FADBAFDFFF2780000000002000800440055003800330001001E00570049004E002D004A00340042004D00530038005200450053004400470004003400570049004E002D004A00340042004D0053003800520045005300440047002E0044005500380033002E004C004F00430041004C000300140044005500380033002E004C004F00430041004C000500140044005500380033002E004C004F00430041004C000700080080AC57F79A8CD801060004000200000008003000300000000000000000000000002000002AB287CBAB8ECE256C58B5B24847ABF8148BC343A510D0222C17815DD3BB598D0A001000000000000000000000000000000000000900200063006900660073002F00310030002E00350030002E00320034002E00360030000000000000000000
 ```
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2010.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2010.png)
 
 **Crack ntlm hash with hashcat**
 
@@ -308,9 +308,9 @@ svcFileCopy::ZA:e261928ca30f5e29:BE3D696BEC42658212EF4B4982B8F673:01010000000000
 hashcat -m 5600 hash.txt /root/Rooms/BreachingAD/task5/passwordlist.txt --force
 ```
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2011.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2011.png)
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2012.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2012.png)
 
 # Microsoft Deployment Toolkit
 
@@ -330,7 +330,7 @@ However, anything that provides central management of infrastructure such as MDT
 
 Large organizations use PXE boot to allow new devices that are connected to the network to load and install the OS directly over a network connection. MDT can be used to create, manage, and host PXE boot images. PXE boot is usually integrated with DHCP, which means that if DHCP assigns an IP lease, the host is allowed to request the PXE boot image and start the network OS installation process. The communication flow is shown in the diagram below**:**
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2013.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2013.png)
 
 Once the process is performed, the client will use a TFTP connection to download the PXE boot image. We can exploit the PXE boot image for two different purposes:
 
@@ -347,7 +347,7 @@ The first piece of information regarding the PXE Boot preconfigure you would hav
 
 The second piece of information you would have received was the names of the BCD files. These files store the information relevant to PXE Boots for the different types of architecture. To retrieve this information, you will need to connect to this website: [http://pxeboot.za.tryhackme.com](http://pxeboot.za.tryhackme.com/). It will list various BCD files:
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2014.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2014.png)
 
 Usually, you would use TFTP to request each of these BCD files and enumerate the configuration for all of them. However, in the interest of time, we will focus on the BCD file of the **x64**
  architecture. Copy and store the full name of this file. For the rest of this exercise, we will be using this name placeholder `x64{7B...B3}.bcd`
@@ -379,7 +379,7 @@ C:\Users\THM\Documents\Am0> tftp -i <THMMDT IP> GET "\Tmp\x64{39...28}.bcd" conf
 Transfer successful: 12288 bytes in 1 second(s), 12288 bytes/s
 ```
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2015.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2015.png)
 
 **Access .bcd file**
 
@@ -408,9 +408,9 @@ Again we will use powerpxe to recover the credentials, but you could also do thi
 Get-FindCredentials -WimFile pxeboot.wim
 ```
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2016.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2016.png)
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2017.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2017.png)
 
 # Configuration Files
 
@@ -439,7 +439,7 @@ scp thm@THMJMP1.za.tryhackme.com:C:/ProgramData/McAfee/Agent/DB/ma.db .
 [pass=Password1@]
 ```
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2018.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2018.png)
 
 **Open file with sqlite browser**
 
@@ -447,14 +447,14 @@ scp thm@THMJMP1.za.tryhackme.com:C:/ProgramData/McAfee/Agent/DB/ma.db .
 sqlitebrowser ma.db
 ```
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2019.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2019.png)
 
 these entries. However, the AUTH_PASSWD field is encrypted. Luckily, McAfee encrypts this field with a known key. Therefore, we will use the following old python2 script to decrypt the password. The script has been provided as a downloadable task file or on the AttackBox, it can be found in the`/root/Rooms/BreachingAD/task7/`
  directory.
 
 **Focused Fields to Decrypt**
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2020.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2020.png)
 
 **Decrypt Field with Tool**
 
@@ -464,9 +464,9 @@ unzip mcafeesitelistpwddecryption.zip\
 python2 mcafee_sitelist_pwd_decrypt.py <AUTH PASSWD VALUE>
 ```
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2021.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2021.png)
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2022.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2022.png)
 
 # Conclusion
 
@@ -484,4 +484,4 @@ In terms of mitigations, there are some steps that organisations can take:
 
 Now that we have breached AD, the next step is to perform enumeration of AD to gain a better understanding of the domain structure and identify potential misconfigurations that can be exploited. This will be covered in the next room. Remember to clear the DNS configuration!
 
-![Untitled](Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2023.png)
+![https://github.com/executeatwill/executeatwill.github.io/raw/master/_posts/Breaching%20Active%20Directory%20baa2d85bbffe47caaca9f296e2b90f7b/Untitled%2023.png)
