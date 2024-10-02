@@ -2,9 +2,8 @@
 published: true
 ---
 
-# OVA to Docker: Bridging the Gap Between Virtual Machines and Containers
 
-![2024-10-02-OVA-to-Docker-Bridging-the-Gap-Images/pexels-pixabay-163726.jpg](pexels-pixabay-163726.jpg)
+![pexels-pixabay-163726.jpg](https://raw.githubusercontent.com/executeatwill/executeatwill.github.io/master/_posts/2024-10-02-OVA-to-Docker-Bridging-the-Gap-Images/pexels-pixabay-163726.jpg)
 
 In the world of software development, we often meet different technologies. Today, I'm excited to share a tool that connects traditional virtual machines and modern containers: the OVA to Docker Converter.
 
@@ -55,7 +54,7 @@ sudo python3 [ova-to-docker.py](http://ova-to-docker.py/) --input <your_vm_image
 
 For more detailed instructions and options, check out the [project README](https://github.com/executeatwill/ova-to-docker/blob/main/README.md).
 
-![2024-10-02-OVA-to-Docker-Bridging-the-Gap-Images/image.png](image.png)
+![image.png](https://raw.githubusercontent.com/executeatwill/executeatwill.github.io/master/_posts/2024-10-02-OVA-to-Docker-Bridging-the-Gap-Images/image.png)
 
 ## Use Cases and Benefits
 
