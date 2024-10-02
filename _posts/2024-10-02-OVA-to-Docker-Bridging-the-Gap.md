@@ -3,9 +3,9 @@ published: true
 ---
 
 
-![pexels-pixabay-163726.jpg](https://raw.githubusercontent.com/executeatwill/executeatwill.github.io/master/_posts/2024-10-02-OVA-to-Docker-Bridging-the-Gap-Images/pexels-pixabay-163726.jpg)
-
 In the world of software development, we often meet different technologies. Today, I'm excited to share a tool that connects traditional virtual machines and modern containers: the OVA to Docker Converter.
+
+![pexels-pixabay-163726.jpg](https://raw.githubusercontent.com/executeatwill/executeatwill.github.io/master/_posts/2024-10-02-OVA-to-Docker-Bridging-the-Gap-Images/pexels-pixabay-163726.jpg)
 
 ## The Challenge: From VMs to Containers
 
